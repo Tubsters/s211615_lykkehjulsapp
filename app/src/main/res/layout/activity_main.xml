@@ -68,6 +68,7 @@
         android:id="@+id/Wheel"
         android:layout_width="228dp"
         android:layout_height="356dp"
+        android:layout_below="@id/won"
         app:srcCompat="@drawable/wheel"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="46dp" />

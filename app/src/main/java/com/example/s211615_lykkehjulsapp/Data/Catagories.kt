@@ -8,12 +8,12 @@ data class Catagories  (
 
     object Data {
     val wordlist: List<Catagories> =
-        arrayListOf(
-            Catagories("sport", "tennis"),
-            Catagories("sport", "swimming"),
-            Catagories("fruit", "apple"),
-            Catagories("fruit","Banana"),
-            Catagories("country", "denmark"),
-            Catagories("country", "sweden")
-        )
+        listOf(
+        Catagories("sport", "tennis"),
+        Catagories("sport", "swimming"),
+        Catagories("fruit", "apple"),
+        Catagories("fruit","Banana"),
+        Catagories("country", "denmark"),
+        Catagories("country", "sweden"))
+
 }
