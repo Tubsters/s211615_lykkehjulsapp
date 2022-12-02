@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 
-class MainActivity : AppCompatActivity() {
+class GameState : AppCompatActivity() {
 
     private val gameManager = GameManager()
     private lateinit var newGame: Button
